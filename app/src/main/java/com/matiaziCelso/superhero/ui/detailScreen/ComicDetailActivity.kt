@@ -18,6 +18,7 @@ import com.matiaziCelso.superhero.models.ComicItem
 
 class ComicDetailActivity : AppCompatActivity() {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_comic_detail)
@@ -26,12 +27,15 @@ class ComicDetailActivity : AppCompatActivity() {
         val extras : Bundle? = intent.extras
         val comicItem: ComicItem? = extras?.getParcelable<ComicItem>("comicItem")
 
-        val banner = findViewById<ImageView>(R.id.comic_detail_banner)
+
+
+        //val banner = findViewById<ImageView>(R.id.comic_detail_banner)
         val backBtn = findViewById<ImageView>(R.id.comic_detail_back_btn)
         val cover = findViewById<ImageView>(R.id.img_item_detail)
         val title = findViewById<TextView>(R.id.comic_detail_title)
         val price = findViewById<TextView>(R.id.comic_detail_price)
         val description = findViewById<TextView>(R.id.comic_description)
+        val tagMais = findViewById<TextView>(R.id.comic_mais)
 
         backBtn.setOnClickListener {
             onBackPressed()
@@ -45,8 +49,14 @@ class ComicDetailActivity : AppCompatActivity() {
 
         val recycler = findViewById<RecyclerView>(R.id.comic_mais_recycler)
         recycler.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-        recycler.adapter = HomeAdapter(ComicsMock.comics()){
-            sendComicToDetail(it)
+
+        if (comicItem?.more != null) {
+            recycler.adapter = HomeAdapter(comicItem.more){
+                sendComicToDetail(it)
+            }
+            if(comicItem.more.isEmpty()){
+                tagMais.text = ""
+            }
         }
 
 
@@ -57,11 +67,10 @@ class ComicDetailActivity : AppCompatActivity() {
             CharactersMock.thor(),
             CharactersMock.huck(),
             CharactersMock.captainAmerica(),
-        )
+        ).shuffled()
 
-        val randomCharacters = characters.shuffled()
         recyclerCharacters.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-        recyclerCharacters.adapter = CharactersAdapter(randomCharacters as MutableList<CharacterItem>){
+        recyclerCharacters.adapter = CharactersAdapter(characters as MutableList<CharacterItem>){
             sendCharacterToDetail(it)
         }
 
