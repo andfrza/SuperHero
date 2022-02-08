@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SuperHero</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="logo">Logo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="entrar_com_redes_sociais">Entrar com redes sociais</string>
+    <string name="novo_por_aqui">Novo por aqui?</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="home">Home</string>
+    <string name="populares">Populares</string>
+    <string name="lan_amentos">Lançamentos</string>
+    <string name="especiais">Especiais</string>
+    <string name="capitao_america">Capitão America</string>
+    <string name="user">user</string>
+    <string name="avengers">Avengers</string>
+    <string name="iron_man">Iron Man</string>
+    <string name="huck">Huck</string>
+    <string name="thor">Thor</string>
+    <string name="pagamento_recusado">Pagamento Recusado</string>
+    <string name="pagamento_pendente">Pagamento Pendente</string>
+    <string name="pagamento_aprovado">Pagamento Aprovado</string>
+
+</resources>

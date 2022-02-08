@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_height="100dp">
+
+
+    <View
+        android:id="@+id/cart_item_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_cart_item"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="14dp"
+        />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/cart_img"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.SelectedCornerRadius"
+        app:layout_constraintTop_toTopOf="@id/cart_item_box"
+        app:layout_constraintStart_toStartOf="@id/cart_item_box"
+        app:layout_constraintBottom_toBottomOf="@id/cart_item_box"
+        tools:src="@drawable/img_user"
+        android:scaleType="fitXY"
+        android:layout_margin="2.5dp"
+        android:clipToOutline="true"
+        android:contentDescription="Comics Item" />
+
+    <TextView
+        android:id="@+id/cart_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Capitain America"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:maxLength="20"
+        app:layout_constraintStart_toEndOf="@id/cart_img"
+        app:layout_constraintTop_toTopOf="@id/cart_item_box"
+        app:layout_constraintBottom_toTopOf="@id/cart_item_number"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginStart="15dp"
+        />
+
+    <TextView
+        android:id="@+id/cart_item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="R$ 19.99"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/cart_img"
+        app:layout_constraintTop_toBottomOf="@id/cart_title"
+        app:layout_constraintBottom_toBottomOf="@id/cart_item_box"
+        android:layout_marginStart="15dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        app:layout_constraintTop_toTopOf="@id/cart_item_box"
+        app:layout_constraintBottom_toBottomOf="@id/cart_item_box"
+        app:layout_constraintEnd_toEndOf="@id/cart_item_box"
+        android:layout_marginEnd="15dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
