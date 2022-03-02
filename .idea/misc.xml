@@ -4,6 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.11197916666666667" />
+        <entry key="..\:/SuperHero/app/src/main/res/drawable/filter_button_border_selected.xml" value="0.1835" />
+        <entry key="..\:/SuperHero/app/src/main/res/drawable/tabs_selector.xml" value="0.1835" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/activity_character_detail.xml" value="0.2" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/activity_comic_detail.xml" value="0.16" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/activity_loading.xml" value="0.20416666666666666" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/cart_item_layout.xml" value="0.33" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/comic_front.xml" value="0.20416666666666666" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fav_item_layout.xml" value="0.5" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fragment_cart.xml" value="0.1" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fragment_itens.xml" value="0.1" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fragment_like.xml" value="0.1" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fragment_register.xml" value="0.2" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fragment_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/itens_item_layout.xml" value="0.33" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/personagem_circle_layout.xml" value="0.67" />
         <entry key="app/src/main/res/drawable/backgroung_header_card_top.xml" value="0.11354166666666667" />
         <entry key="app/src/main/res/drawable/backround_footer_card.xml" value="0.17314814814814813" />
         <entry key="app/src/main/res/drawable/border_cardview.xml" value="0.13" />

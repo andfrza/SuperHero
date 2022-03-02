@@ -7,8 +7,7 @@
     android:background="@drawable/user_border"
     android:layout_gravity="end"
     android:layout_marginTop="10dp"
-    android:layout_marginBottom="10dp"
-    tools:context=".UserFragment">
+    android:layout_marginBottom="10dp">
 
 
 
@@ -39,7 +38,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="Jose da Silva"
-        android:textColor="@color/grey"
+        style="@style/gray_13_regular"
         android:layout_marginTop="15dp"
     />
 
@@ -61,7 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="15dp"
         android:text="Dados Pessoais"
-        android:textColor="@color/grey"/>
+        style="@style/gray_13_regular"/>
 
     <View
         android:id="@+id/divider_2"
@@ -80,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="15dp"
         android:text="Pagamento"
-        android:textColor="@color/grey"/>
+        style="@style/gray_13_regular"/>
 
 
     <View
@@ -100,7 +99,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="15dp"
         android:text="Ajuda"
-        android:textColor="@color/grey"/>
+        style="@style/gray_13_regular"/>
 
     <View
         android:id="@+id/divider_4"
@@ -119,7 +118,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="15dp"
         android:text="Politica de privacidade"
-        android:textColor="@color/grey"/>
+        style="@style/gray_13_regular"/>
 
     <View
         android:id="@+id/divider_5"
@@ -138,7 +137,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="15dp"
         android:text="Sair"
-        android:textColor="@color/grey"/>
+        style="@style/gray_13_regular"/>
 
     <View
         android:id="@+id/divider_6"
@@ -148,11 +147,5 @@
         app:layout_constraintTop_toBottomOf="@id/menu_5"
         android:layout_marginTop="20dp"
         />
-
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

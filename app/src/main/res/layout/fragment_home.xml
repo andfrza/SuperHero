@@ -40,7 +40,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginHorizontal="10dp"
         android:elevation="20dp"
-        app:cardBackgroundColor="@color/darkGrey"
+        app:cardBackgroundColor="@color/darkGray"
         app:cardCornerRadius="10dp"
         >
 
@@ -49,9 +49,9 @@
             android:layout_height="36dp"
             app:layout_constraintTop_toTopOf="parent"
             app:tabBackground="@drawable/tabs_selector"
-            android:background="@color/darkGrey"
-            app:tabSelectedTextColor="@color/darkGrey"
-            app:tabTextColor="@color/grey"
+            android:background="@color/darkGray"
+            app:tabSelectedTextColor="@color/darkGray"
+            app:tabTextColor="@color/gray"
             app:tabTextAppearance="@style/CustomTabText"
             app:tabIndicatorHeight="0dp"
             >
@@ -132,9 +132,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/capitao_america"
-                    android:textColor="@color/amber"
-                    android:textStyle="bold"
-                    android:textSize="28sp"
+                    style="@style/amber_28_bold"
                     android:shadowRadius="30"
                     android:shadowDx="5"
                     android:shadowDy="5"

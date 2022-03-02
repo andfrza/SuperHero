@@ -24,7 +24,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         this.supportActionBar?.hide()
-        window.statusBarColor = ContextCompat.getColor(this, R.color.darkGrey)
+        window.statusBarColor = ContextCompat.getColor(this, R.color.darkGray)
 
 
         homeFragment = HomeFragment()
