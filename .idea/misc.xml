@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.11197916666666667" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/activity_login.xml" value="0.14356884057971014" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fragment_like.xml" value="0.1" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/fragment_login.xml" value="0.14356884057971014" />
+        <entry key="..\:/SuperHero/app/src/main/res/layout/itens_item_layout.xml" value="0.14356884057971014" />
         <entry key="app/src/main/res/drawable/backgroung_header_card_top.xml" value="0.11354166666666667" />
         <entry key="app/src/main/res/drawable/backround_footer_card.xml" value="0.17314814814814813" />
         <entry key="app/src/main/res/drawable/border_cardview.xml" value="0.13" />

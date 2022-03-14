@@ -15,7 +15,8 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val register : TextView = view.findViewById(R.id.txt_cadastrar)
+        val register : TextView = view.findViewById(R.id.
+        txt_cadastrar)
         val login : TextView = view.findViewById(R.id.login_entrar_btn)
 
         register.setOnClickListener {
@@ -32,6 +33,4 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
         }
 
     }
-
-
 }

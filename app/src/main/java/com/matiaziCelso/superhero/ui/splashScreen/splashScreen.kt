@@ -1,10 +1,13 @@
 package com.matiaziCelso.superhero.ui.splashScreen
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.util.AttributeSet
+import android.view.View
 import androidx.core.content.ContextCompat
 import com.matiaziCelso.superhero.R
 import com.matiaziCelso.superhero.ui.login.LoginActivity
